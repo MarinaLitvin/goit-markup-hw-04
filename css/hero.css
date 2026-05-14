@@ -1,0 +1,36 @@
+.hero-section {
+    background-color: #2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;
+}
+
+.main-title {
+    text-align: center;
+    max-width: 496px;
+}
+
+.button {
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    cursor: pointer;
+    letter-spacing: 0.04em;
+    display: block;
+    margin-top: 48px;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 4px;
+}
+
+.main-title,
+.button {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button:focus,
+.button:hover {
+    background-color: #404BBF;
+}

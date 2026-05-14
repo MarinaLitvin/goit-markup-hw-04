@@ -1,0 +1,18 @@
+.features-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.features-item-list {
+    display: flex;
+    gap: 24px;
+}
+
+.feature-item {
+    width: calc((100% - 72px) / 4);
+}
+
+.feature-item-title,
+.sr-only {
+    color: #2E2F42;
+}
