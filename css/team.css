@@ -1,7 +1,7 @@
 .team-section {
     padding-top: 120px;
     padding-bottom: 120px;
-    background-color: #F4F4FD;
+    background-color: rgba(244, 244, 253, 100%);
 }
 
 .team-card-list {
@@ -13,12 +13,19 @@
 }
 
 .team-card {
-    display: block;
-    width: calc((100% - 72px) / 4);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     border: 1px solid #e7e9fc;
     border-radius: 0 0 4px 4px;
+    transition: box-shadow 250ms ease-in-out;
+}
+
+.team-card:hover {
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .team-card-caption {
     padding: 32px 16px;
 }
+

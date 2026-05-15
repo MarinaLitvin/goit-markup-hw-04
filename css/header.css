@@ -15,7 +15,8 @@
     margin-left: 76px;;
 }
 
-.header-social-list {   
+.header-social-list { 
+    width: 344px;
     font-style: normal;
     display: flex;
     column-gap: 40px;
@@ -31,15 +32,17 @@
 }
 
 .header-logo {
-    color: #2e2f42;    
+    color: #2e2f42; 
+    padding-bottom: 24px;
+    padding-top: 24px;
 }
 
-.header-logo,
 .header-nav-link,
 .header-social-link {
     display: block;
     padding-bottom: 24px;
     padding-top: 24px;
+    transition: color 250ms ease-in-out;
 }
 
 .header-nav-link:hover,
