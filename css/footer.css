@@ -17,6 +17,10 @@
     justify-content: flex-start;
 }
 
+.footer .social-list {
+    gap: 16px;
+}
+
 .text-social,
 .logo-text {
     display: flex;
@@ -31,4 +35,14 @@
 
 .text-social {
     max-width: 208px;
+}
+
+.text-social p {
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.footer .social-link:hover,
+.footer .social-link:focus {
+    background-color: #31d0aa;
 }
