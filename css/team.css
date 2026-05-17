@@ -19,9 +19,9 @@
     border: 1px solid #e7e9fc;
     border-radius: 0 0 4px 4px;
     box-shadow:
-        0 2px 1px 0 rgba(46, 47, 66, 0.8),
+        0 2px 1px 0 rgba(46, 47, 66, 0.08),
         0 1px 1px 0 rgba(46, 47, 66, 0.16),
-        0 1px 6px 0 rgba(46, 47, 66, 0.8);
+        0 1px 6px 0 rgba(46, 47, 66, 0.08);
     transition:
         box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -29,9 +29,9 @@
 .team-card:hover,
 .team-card:focus {
     box-shadow:
-        0 2px 1px 0 rgba(46, 47, 66, 0.8),
+        0 2px 1px 0 rgba(46, 47, 66, 0.08),
         0 1px 1px 0 rgba(46, 47, 66, 0.16),
-        0 1px 6px 0 rgba(46, 47, 66, 0.8);       
+        0 1px 6px 0 rgba(46, 47, 66, 0.08);       
 }
 .team-card .social-list {
     margin-top: 8px;
