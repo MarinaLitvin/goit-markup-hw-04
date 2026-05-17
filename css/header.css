@@ -11,8 +11,11 @@
 .header-nav-list {
     display: flex;
     column-gap: 40px;
-    margin-right: 340px;
-    margin-left: 76px;;
+}
+
+.header-nav {
+    padding-left: 76px;
+    padding-right: 340px;
 }
 
 .header-social-list { 
@@ -42,7 +45,7 @@
     display: block;
     padding-bottom: 24px;
     padding-top: 24px;
-    transition: color 250ms ease-in-out;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-nav-link:hover,
