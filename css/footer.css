@@ -13,21 +13,22 @@
 
 .footer-list {
     display: flex;
-    gap: 120px;
     align-items: flex-start;
     justify-content: flex-start;
 }
 
-.footer-list-item {
+.text-social,
+.logo-text {
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
 
-.footer-list-item:first-child {
+.logo-text {    
+    margin-right: 120px;
     max-width: 264px;
 }
 
-.footer-list-item:last-child {
+.text-social {
     max-width: 208px;
 }
