@@ -1,7 +1,8 @@
 .page-header {    
     background-color: #FFFFFF;
     letter-spacing: 0.02em;    
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    box-shadow:
+        0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .page-header .container {
@@ -25,7 +26,7 @@
     column-gap: 40px;
 }
 
-.header-social-list a {
+.header-social-link {
     color: #434455;
 }
 
@@ -52,25 +53,24 @@
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-nav-link {
-    position: relative;
-}
-
 .header-nav-link:hover,
 .header-nav-link:focus,
-.header-nav-link:active,
 .header-social-link:hover,
-.header-social-link:focus,
-.header-social-link:active {
+.header-social-link:focus {
     color: #404BBF;
 }
 
-.header-nav-link:active::after {
+.currant {
+    position: relative;
+}
+
+.currant::after {
     content: "";
-    width: 65px;
-    height: 4px;
-    border-radius: 2px;
-    background-color: #404BBF;
     position: absolute;
+    left: 0;
     bottom: 0;
+    width: 100%;
+    height: 4px;
+    background-color: #404BBF;
+    border-radius: 2px;
 }
